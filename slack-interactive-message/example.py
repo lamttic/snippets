@@ -7,6 +7,7 @@ from flask import Flask, request, make_response, Response
 
 SLACK_BOT_TOKEN = "Do write it yourself"
 SLACK_VERIFICATION_TOKEN = "Do write it yourself"
+CHALLEL = "Do write it yourself"
 
 
 # async 이벤트 loop 생성
@@ -168,7 +169,7 @@ def show() -> Response:
     ]
 
     loop.run_until_complete(slack_client.chat_postMessage(
-        channel=CHANNEL_DATA_ANALYSIS,
+        channel=CHANNEL,
         blocks=blocks
     ))
 
