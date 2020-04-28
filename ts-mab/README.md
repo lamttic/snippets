@@ -1,3 +1,3 @@
 # ts-mab
 
-thompson sampling multi armed bandit 구현한 적용한 샘플 코드 
+thompson sampling multi armed bandit을 구현한 샘플 코드 
